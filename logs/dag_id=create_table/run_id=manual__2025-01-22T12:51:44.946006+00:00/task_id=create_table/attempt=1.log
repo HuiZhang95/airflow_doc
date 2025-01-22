@@ -1,0 +1,43 @@
+[2025-01-22T12:51:54.581+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: create_table.create_table manual__2025-01-22T12:51:44.946006+00:00 [queued]>
+[2025-01-22T12:51:54.605+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: create_table.create_table manual__2025-01-22T12:51:44.946006+00:00 [queued]>
+[2025-01-22T12:51:54.606+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-01-22T12:51:54.635+0000] {taskinstance.py:2191} INFO - Executing <Task(PostgresOperator): create_table> on 2025-01-22 12:51:44.946006+00:00
+[2025-01-22T12:51:54.647+0000] {standard_task_runner.py:60} INFO - Started process 2048 to run task
+[2025-01-22T12:51:54.655+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'create_table', 'create_table', 'manual__2025-01-22T12:51:44.946006+00:00', '--job-id', '79', '--raw', '--subdir', 'DAGS_FOLDER/create_table.py', '--cfg-path', '/tmp/tmp8uye5smo']
+[2025-01-22T12:51:54.659+0000] {standard_task_runner.py:88} INFO - Job 79: Subtask create_table
+[2025-01-22T12:51:54.684+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  SQL_ALCHEMY_CONN = conf.get("database", "SQL_ALCHEMY_CONN")
+
+[2025-01-22T12:51:54.751+0000] {task_command.py:423} INFO - Running <TaskInstance: create_table.create_table manual__2025-01-22T12:51:44.946006+00:00 [running]> on host b09fdc55415a
+[2025-01-22T12:51:54.907+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='create_table' AIRFLOW_CTX_TASK_ID='create_table' AIRFLOW_CTX_EXECUTION_DATE='2025-01-22T12:51:44.946006+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-22T12:51:44.946006+00:00'
+[2025-01-22T12:51:54.908+0000] {sql.py:276} INFO - Executing: 
+        CREATE TABLE IF NOT EXISTS customer (
+            id UUID PRIMARY KEY,
+            lastname VARCHAR NOT NULL,
+            firstname VARCHAR NOT NULL,
+            sex VARCHAR NOT NULL,
+            street_number SMALLINT NOT NULL,
+            street_name VARCHAR NOT NULL,
+            city VARCHAR NOT NULL,
+            postcode VARCHAR NOT NULL,
+            region VARCHAR NOT NULL,
+            modification_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
+       
+[2025-01-22T12:51:54.924+0000] {base.py:83} INFO - Using connection ID 'postgres' for task execution.
+[2025-01-22T12:51:54.953+0000] {base.py:83} INFO - Using connection ID 'postgres' for task execution.
+[2025-01-22T12:51:54.962+0000] {sql.py:450} INFO - Running statement: 
+        CREATE TABLE IF NOT EXISTS customer (
+            id UUID PRIMARY KEY,
+            lastname VARCHAR NOT NULL,
+            firstname VARCHAR NOT NULL,
+            sex VARCHAR NOT NULL,
+            street_number SMALLINT NOT NULL,
+            street_name VARCHAR NOT NULL,
+            city VARCHAR NOT NULL,
+            postcode VARCHAR NOT NULL,
+            region VARCHAR NOT NULL,
+            modification_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
+       , parameters: None
+[2025-01-22T12:51:55.034+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=create_table, task_id=create_table, execution_date=20250122T125144, start_date=20250122T125154, end_date=20250122T125155
+[2025-01-22T12:51:55.074+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-01-22T12:51:55.106+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

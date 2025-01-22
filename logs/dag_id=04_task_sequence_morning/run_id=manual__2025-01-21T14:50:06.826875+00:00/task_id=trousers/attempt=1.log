@@ -1,0 +1,17 @@
+[2025-01-21T14:50:10.856+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 04_task_sequence_morning.trousers manual__2025-01-21T14:50:06.826875+00:00 [queued]>
+[2025-01-21T14:50:10.873+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 04_task_sequence_morning.trousers manual__2025-01-21T14:50:06.826875+00:00 [queued]>
+[2025-01-21T14:50:10.874+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-01-21T14:50:10.905+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): trousers> on 2025-01-21 14:50:06.826875+00:00
+[2025-01-21T14:50:10.915+0000] {standard_task_runner.py:60} INFO - Started process 690 to run task
+[2025-01-21T14:50:10.921+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', '04_task_sequence_morning', 'trousers', 'manual__2025-01-21T14:50:06.826875+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/04_task_sequence_dag.py', '--cfg-path', '/tmp/tmpps4z2fwl']
+[2025-01-21T14:50:10.925+0000] {standard_task_runner.py:88} INFO - Job 4: Subtask trousers
+[2025-01-21T14:50:10.952+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  SQL_ALCHEMY_CONN = conf.get("database", "SQL_ALCHEMY_CONN")
+
+[2025-01-21T14:50:11.018+0000] {task_command.py:423} INFO - Running <TaskInstance: 04_task_sequence_morning.trousers manual__2025-01-21T14:50:06.826875+00:00 [running]> on host d3a2c9f62df6
+[2025-01-21T14:50:11.163+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='04_task_sequence_morning' AIRFLOW_CTX_TASK_ID='trousers' AIRFLOW_CTX_EXECUTION_DATE='2025-01-21T14:50:06.826875+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-21T14:50:06.826875+00:00'
+[2025-01-21T14:50:11.165+0000] {logging_mixin.py:188} INFO - Pulling on trousers
+[2025-01-21T14:50:11.165+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-01-21T14:50:11.180+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=04_task_sequence_morning, task_id=trousers, execution_date=20250121T145006, start_date=20250121T145010, end_date=20250121T145011
+[2025-01-21T14:50:11.222+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-01-21T14:50:11.276+0000] {taskinstance.py:3280} INFO - 2 downstream tasks scheduled from follow-on schedule check

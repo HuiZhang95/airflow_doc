@@ -1,0 +1,550 @@
+[2025-01-22T14:25:11.172+0000] {processor.py:161} INFO - Started process (PID=1027) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:25:11.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:25:11.177+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:25:11.176+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:25:11.180+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:25:11.179+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_order.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_order.py", line 15
+    catchup=False
+    ^
+SyntaxError: invalid syntax
+[2025-01-22T14:25:11.181+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:25:11.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.065 seconds
+[2025-01-22T14:25:41.897+0000] {processor.py:161} INFO - Started process (PID=1121) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:25:41.898+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:25:41.900+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:25:41.900+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:25:41.913+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:25:41.911+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_order.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_order.py", line 15
+    catchup=False
+    ^
+SyntaxError: invalid syntax
+[2025-01-22T14:25:41.913+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:25:41.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.078 seconds
+[2025-01-22T14:26:12.898+0000] {processor.py:161} INFO - Started process (PID=1213) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:26:12.902+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:26:12.912+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:26:12.912+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:26:12.919+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:26:12.918+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_order.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_order.py", line 15
+    catchup=False
+    ^
+SyntaxError: invalid syntax
+[2025-01-22T14:26:12.924+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:26:12.975+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.090 seconds
+[2025-01-22T14:26:43.859+0000] {processor.py:161} INFO - Started process (PID=1307) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:26:43.863+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:26:43.865+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:26:43.865+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:26:43.877+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:26:43.868+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_order.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_order.py", line 15
+    catchup=False
+    ^
+SyntaxError: invalid syntax
+[2025-01-22T14:26:43.877+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:26:43.923+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.074 seconds
+[2025-01-22T14:27:14.010+0000] {processor.py:161} INFO - Started process (PID=1400) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:27:14.012+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:27:14.015+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:27:14.014+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:27:14.019+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:27:14.018+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_order.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_order.py", line 15
+    catchup=False
+    ^
+SyntaxError: invalid syntax
+[2025-01-22T14:27:14.020+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:27:14.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.046 seconds
+[2025-01-22T14:27:40.983+0000] {processor.py:161} INFO - Started process (PID=1471) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:27:40.984+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:27:40.986+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:27:40.986+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:27:40.990+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:27:40.988+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_order.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_order.py", line 19
+    catchup=False
+    ^
+SyntaxError: invalid syntax
+[2025-01-22T14:27:40.990+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:27:41.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.036 seconds
+[2025-01-22T14:28:11.404+0000] {processor.py:161} INFO - Started process (PID=1565) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:28:11.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:28:11.409+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:28:11.408+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:28:11.413+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:28:11.412+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_order.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_order.py", line 19
+    catchup=False
+    ^
+SyntaxError: invalid syntax
+[2025-01-22T14:28:11.414+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:28:11.443+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.043 seconds
+[2025-01-22T14:28:33.352+0000] {processor.py:161} INFO - Started process (PID=1629) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:28:33.353+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:28:33.356+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:28:33.355+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:28:33.475+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:28:33.647+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:28:33.646+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:load_order
+[2025-01-22T14:28:33.663+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:28:33.662+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:load_order
+[2025-01-22T14:28:33.673+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:28:33.672+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:load_order
+[2025-01-22T14:28:33.673+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:28:33.673+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:28:33.693+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:28:33.693+0000] {dag.py:3058} INFO - Creating ORM DAG for load_order
+[2025-01-22T14:28:33.712+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:28:33.711+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:28:33.758+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.410 seconds
+[2025-01-22T14:29:04.083+0000] {processor.py:161} INFO - Started process (PID=1723) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:29:04.085+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:29:04.087+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:29:04.087+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:29:04.246+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:29:04.279+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:29:04.279+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:29:04.323+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:29:04.322+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:29:04.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.277 seconds
+[2025-01-22T14:29:07.905+0000] {processor.py:161} INFO - Started process (PID=1729) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:29:07.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:29:07.910+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:29:07.909+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:29:08.202+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:29:08.269+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:29:08.267+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:29:08.335+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:29:08.334+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:29:08.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.491 seconds
+[2025-01-22T14:29:38.930+0000] {processor.py:161} INFO - Started process (PID=1822) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:29:38.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:29:38.935+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:29:38.934+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:29:39.115+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:29:39.157+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:29:39.157+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:29:39.203+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:29:39.202+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:29:39.237+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.313 seconds
+[2025-01-22T14:30:09.457+0000] {processor.py:161} INFO - Started process (PID=1915) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:30:09.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:30:09.483+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:30:09.482+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:30:09.953+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:30:10.022+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:30:10.021+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:30:10.092+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:30:10.092+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:30:10.186+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.742 seconds
+[2025-01-22T14:30:40.626+0000] {processor.py:161} INFO - Started process (PID=2008) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:30:40.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:30:40.632+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:30:40.631+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:30:41.222+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:30:41.382+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:30:41.381+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:30:41.516+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:30:41.515+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:30:41.587+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.965 seconds
+[2025-01-22T14:31:12.276+0000] {processor.py:161} INFO - Started process (PID=2101) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:31:12.289+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:31:12.292+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:31:12.292+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:31:12.720+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:31:12.827+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:31:12.826+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:31:12.939+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:31:12.938+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:31:12.987+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.732 seconds
+[2025-01-22T14:31:43.900+0000] {processor.py:161} INFO - Started process (PID=2186) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:31:43.902+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:31:43.906+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:31:43.905+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:31:44.250+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:31:44.390+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:31:44.390+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:31:44.502+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:31:44.502+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:31:44.593+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.699 seconds
+[2025-01-22T14:32:14.695+0000] {processor.py:161} INFO - Started process (PID=2280) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:32:14.701+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:32:14.717+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:32:14.703+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:32:15.235+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:32:15.318+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:32:15.317+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:32:15.387+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:32:15.386+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:32:15.439+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.756 seconds
+[2025-01-22T14:32:46.120+0000] {processor.py:161} INFO - Started process (PID=2372) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:32:46.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:32:46.140+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:32:46.139+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:32:46.346+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:32:46.442+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:32:46.441+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:32:46.522+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:32:46.522+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:32:46.555+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.453 seconds
+[2025-01-22T14:33:17.542+0000] {processor.py:161} INFO - Started process (PID=2465) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:33:17.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:33:17.547+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:33:17.547+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:33:17.745+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:33:17.818+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:33:17.817+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:33:17.862+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:33:17.862+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:33:17.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.363 seconds
+[2025-01-22T14:33:48.374+0000] {processor.py:161} INFO - Started process (PID=2559) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:33:48.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:33:48.378+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:33:48.377+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:33:48.545+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:33:48.582+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:33:48.582+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:33:48.626+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:33:48.625+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:33:48.659+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.299 seconds
+[2025-01-22T14:34:18.940+0000] {processor.py:161} INFO - Started process (PID=2652) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:34:18.942+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:34:18.945+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:34:18.944+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:34:19.092+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:34:19.133+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:34:19.132+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:34:19.178+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:34:19.178+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:34:19.211+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.277 seconds
+[2025-01-22T14:34:49.346+0000] {processor.py:161} INFO - Started process (PID=2745) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:34:49.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:34:49.350+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:34:49.349+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:34:49.548+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:34:49.585+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:34:49.584+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:34:49.632+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:34:49.631+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:34:49.664+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.322 seconds
+[2025-01-22T14:35:20.231+0000] {processor.py:161} INFO - Started process (PID=2839) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:35:20.241+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:35:20.243+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:35:20.243+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:35:20.431+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:35:20.467+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:35:20.466+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:35:20.510+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:35:20.510+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:35:20.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.316 seconds
+[2025-01-22T14:35:50.675+0000] {processor.py:161} INFO - Started process (PID=2932) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:35:50.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:35:50.679+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:35:50.678+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:35:50.823+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:35:50.860+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:35:50.860+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:35:50.905+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:35:50.904+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:35:50.947+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.277 seconds
+[2025-01-22T14:36:21.071+0000] {processor.py:161} INFO - Started process (PID=3024) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:36:21.073+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:36:21.076+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:36:21.076+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:36:21.244+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:36:21.284+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:36:21.284+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:36:21.337+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:36:21.337+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:36:21.595+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.529 seconds
+[2025-01-22T14:36:52.083+0000] {processor.py:161} INFO - Started process (PID=3117) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:36:52.084+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:36:52.087+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:36:52.086+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:36:52.229+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:36:52.265+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:36:52.264+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:36:52.306+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:36:52.305+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:36:52.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.262 seconds
+[2025-01-22T14:37:22.818+0000] {processor.py:161} INFO - Started process (PID=3210) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:37:22.820+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:37:22.822+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:37:22.822+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:37:23.009+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:37:23.059+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:37:23.059+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:37:23.104+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:37:23.104+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:37:23.139+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.327 seconds
+[2025-01-22T14:37:53.357+0000] {processor.py:161} INFO - Started process (PID=3301) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:37:53.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:37:53.360+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:37:53.360+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:37:53.527+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:37:53.568+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:37:53.567+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:37:53.611+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:37:53.611+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:37:53.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.291 seconds
+[2025-01-22T14:38:24.454+0000] {processor.py:161} INFO - Started process (PID=3395) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:38:24.456+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:38:24.459+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:38:24.458+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:38:24.606+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:38:24.838+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:38:24.837+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:38:24.878+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:38:24.878+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:38:24.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.462 seconds
+[2025-01-22T14:38:54.983+0000] {processor.py:161} INFO - Started process (PID=3489) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:38:54.984+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:38:54.987+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:38:54.986+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:38:55.129+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:38:55.160+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:38:55.160+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:38:55.370+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:38:55.370+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:38:55.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.423 seconds
+[2025-01-22T14:39:25.470+0000] {processor.py:161} INFO - Started process (PID=3581) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:39:25.472+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:39:25.476+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:39:25.475+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:39:25.642+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:39:25.683+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:39:25.682+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:39:25.919+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:39:25.919+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:39:25.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.511 seconds
+[2025-01-22T14:39:56.314+0000] {processor.py:161} INFO - Started process (PID=3674) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:39:56.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:39:56.318+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:39:56.318+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:39:56.524+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:39:56.573+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:39:56.572+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:39:56.622+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:39:56.622+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:39:56.957+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.647 seconds
+[2025-01-22T14:40:27.857+0000] {processor.py:161} INFO - Started process (PID=3769) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:40:27.859+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:40:27.863+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:40:27.863+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:40:28.196+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:40:28.246+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:40:28.245+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:40:28.591+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:40:28.591+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:40:28.682+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.837 seconds
+[2025-01-22T14:40:59.282+0000] {processor.py:161} INFO - Started process (PID=3862) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:40:59.294+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:40:59.303+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:40:59.302+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:40:59.649+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:40:59.822+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:40:59.821+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:40:59.956+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:40:59.956+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:41:00.033+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.756 seconds
+[2025-01-22T14:41:30.417+0000] {processor.py:161} INFO - Started process (PID=3955) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:41:30.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:41:30.420+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:41:30.420+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:41:31.179+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:41:31.224+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:41:31.223+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:41:31.278+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:41:31.277+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:41:31.313+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.920 seconds
+[2025-01-22T14:42:01.598+0000] {processor.py:161} INFO - Started process (PID=4050) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:42:01.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:42:01.609+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:42:01.608+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:42:01.909+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:42:02.128+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:42:02.128+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:42:02.169+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:42:02.169+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:42:02.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.609 seconds
+[2025-01-22T14:42:33.003+0000] {processor.py:161} INFO - Started process (PID=4144) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:42:33.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:42:33.006+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:42:33.006+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:42:33.122+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:42:33.159+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:42:33.159+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:42:33.442+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:42:33.441+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:42:33.546+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.548 seconds
+[2025-01-22T14:43:04.273+0000] {processor.py:161} INFO - Started process (PID=4236) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:43:04.275+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:43:04.278+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:43:04.278+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:43:04.688+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:43:04.724+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:43:04.723+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:43:04.769+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:43:04.768+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:43:04.802+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.536 seconds
+[2025-01-22T14:43:34.892+0000] {processor.py:161} INFO - Started process (PID=4329) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:43:34.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:43:34.896+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:43:34.896+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:43:35.227+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:43:35.261+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:43:35.261+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:43:35.302+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:43:35.302+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:43:35.335+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.447 seconds
+[2025-01-22T14:44:05.671+0000] {processor.py:161} INFO - Started process (PID=4420) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:44:05.673+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:44:05.676+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:44:05.675+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:44:06.005+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:44:06.090+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:44:06.089+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:44:06.142+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:44:06.142+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:44:06.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.507 seconds
+[2025-01-22T14:44:36.481+0000] {processor.py:161} INFO - Started process (PID=4513) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:44:36.482+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:44:36.485+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:44:36.484+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:44:36.715+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:44:37.060+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:44:37.059+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:44:37.160+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:44:37.160+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:44:37.226+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.757 seconds
+[2025-01-22T14:45:07.935+0000] {processor.py:161} INFO - Started process (PID=4606) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:45:07.937+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:45:07.946+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:45:07.945+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:45:08.400+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:45:08.470+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:45:08.470+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:45:08.566+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:45:08.565+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:45:08.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.714 seconds
+[2025-01-22T14:45:38.734+0000] {processor.py:161} INFO - Started process (PID=4691) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:45:38.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:45:38.738+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:45:38.738+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:45:39.206+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:45:39.278+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:45:39.278+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:45:39.366+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:45:39.366+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:45:39.418+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.690 seconds
+[2025-01-22T14:46:09.510+0000] {processor.py:161} INFO - Started process (PID=4783) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:46:09.512+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:46:09.515+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:46:09.515+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:46:09.850+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:46:09.891+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:46:09.891+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:46:09.934+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:46:09.933+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:46:09.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.462 seconds
+[2025-01-22T14:46:40.195+0000] {processor.py:161} INFO - Started process (PID=4876) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:46:40.199+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:46:40.206+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:46:40.205+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:46:40.612+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:46:40.652+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:46:40.652+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:46:40.710+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:46:40.709+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:46:40.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.572 seconds
+[2025-01-22T14:47:11.027+0000] {processor.py:161} INFO - Started process (PID=4969) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:47:11.032+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:47:11.034+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:47:11.034+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:47:11.565+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:47:11.634+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:47:11.633+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:47:11.707+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:47:11.707+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:47:11.778+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.756 seconds
+[2025-01-22T14:47:41.968+0000] {processor.py:161} INFO - Started process (PID=5062) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:47:41.973+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:47:41.982+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:47:41.981+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:47:42.499+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:47:42.546+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:47:42.546+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:47:42.617+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:47:42.617+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:47:42.698+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.735 seconds
+[2025-01-22T14:48:12.822+0000] {processor.py:161} INFO - Started process (PID=5148) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:48:12.824+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:48:12.827+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:48:12.826+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:48:12.974+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:48:13.014+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:48:13.013+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:48:13.063+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:48:13.063+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:48:13.095+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.282 seconds
+[2025-01-22T14:48:43.415+0000] {processor.py:161} INFO - Started process (PID=5240) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:48:43.416+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:48:43.419+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:48:43.418+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:48:43.695+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:48:43.739+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:48:43.739+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:48:43.794+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:48:43.794+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:48:43.892+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.496 seconds
+[2025-01-22T14:49:14.213+0000] {processor.py:161} INFO - Started process (PID=5333) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:49:14.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:49:14.220+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:49:14.219+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:49:14.425+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:49:14.498+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:49:14.497+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:49:14.598+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:49:14.594+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:49:14.656+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.451 seconds
+[2025-01-22T14:49:45.234+0000] {processor.py:161} INFO - Started process (PID=5426) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:49:45.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:49:45.238+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:49:45.238+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:49:45.524+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:49:45.569+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:49:45.568+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:49:45.651+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:49:45.650+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:49:45.685+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.464 seconds
+[2025-01-22T14:50:16.385+0000] {processor.py:161} INFO - Started process (PID=5519) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:50:16.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:50:16.392+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:50:16.391+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:50:16.652+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:50:16.726+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:50:16.725+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:50:16.788+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:50:16.788+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:50:16.826+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.453 seconds
+[2025-01-22T14:50:47.262+0000] {processor.py:161} INFO - Started process (PID=5611) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:50:47.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:50:47.272+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:50:47.271+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:50:47.581+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:50:47.647+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:50:47.647+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:50:47.707+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:50:47.706+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:50:47.741+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.493 seconds
+[2025-01-22T14:51:18.096+0000] {processor.py:161} INFO - Started process (PID=5705) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:51:18.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:51:18.107+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:51:18.107+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:51:18.339+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:51:18.402+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:51:18.402+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:51:18.534+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:51:18.534+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:51:18.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.551 seconds
+[2025-01-22T14:51:49.060+0000] {processor.py:161} INFO - Started process (PID=5799) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:51:49.063+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:51:49.069+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:51:49.069+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:51:49.226+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:51:49.298+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:51:49.297+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:51:49.375+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:51:49.375+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:51:49.434+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.388 seconds
+[2025-01-22T14:52:19.701+0000] {processor.py:161} INFO - Started process (PID=5886) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:52:19.703+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:52:19.705+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:52:19.704+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:52:19.824+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:52:19.857+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:52:19.857+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:52:19.894+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:52:19.894+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:52:19.924+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.228 seconds
+[2025-01-22T14:52:50.441+0000] {processor.py:161} INFO - Started process (PID=5977) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:52:50.443+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:52:50.445+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:52:50.445+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:52:50.598+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:52:50.636+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:52:50.635+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:52:50.682+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:52:50.681+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:52:50.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.283 seconds
+[2025-01-22T14:53:20.886+0000] {processor.py:161} INFO - Started process (PID=6070) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:53:20.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:53:20.890+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:53:20.890+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:53:21.085+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:53:21.133+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:53:21.132+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:53:21.182+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:53:21.181+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:53:21.218+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.338 seconds
+[2025-01-22T14:53:51.984+0000] {processor.py:161} INFO - Started process (PID=6162) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:53:51.988+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:53:51.994+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:53:51.994+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:53:52.301+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:53:52.390+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:53:52.390+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:53:52.461+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:53:52.461+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:53:52.526+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.557 seconds
+[2025-01-22T14:54:23.206+0000] {processor.py:161} INFO - Started process (PID=6255) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:54:23.215+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:54:23.222+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:54:23.221+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:54:23.698+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:54:23.762+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:54:23.761+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:54:23.807+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:54:23.807+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:54:23.860+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.668 seconds
+[2025-01-22T14:54:53.965+0000] {processor.py:161} INFO - Started process (PID=6348) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:54:53.969+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:54:53.985+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:54:53.979+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:54:54.318+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:54:54.402+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:54:54.401+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:54:54.479+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:54:54.478+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:54:54.550+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.614 seconds
+[2025-01-22T14:55:24.681+0000] {processor.py:161} INFO - Started process (PID=6437) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:55:24.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:55:24.688+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:55:24.687+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:55:24.931+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:55:24.993+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:55:24.993+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:55:25.101+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:55:25.100+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:55:25.175+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.498 seconds
+[2025-01-22T14:55:55.872+0000] {processor.py:161} INFO - Started process (PID=6530) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:55:55.873+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:55:55.876+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:55:55.876+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:55:56.035+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:55:56.076+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:55:56.075+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:55:56.120+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:55:56.120+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:55:56.152+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.285 seconds
+[2025-01-22T14:56:26.331+0000] {processor.py:161} INFO - Started process (PID=6624) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:56:26.340+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:56:26.343+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:56:26.343+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:56:26.704+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:56:26.745+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:56:26.745+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:56:26.790+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:56:26.789+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:56:26.824+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.498 seconds
+[2025-01-22T14:56:57.632+0000] {processor.py:161} INFO - Started process (PID=6717) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:56:57.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:56:57.638+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:56:57.637+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:56:58.239+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:56:58.339+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:56:58.338+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:56:58.401+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:56:58.400+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:56:58.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.827 seconds
+[2025-01-22T14:57:29.038+0000] {processor.py:161} INFO - Started process (PID=6810) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:57:29.041+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:57:29.044+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:57:29.043+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:57:29.449+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:57:29.495+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:57:29.495+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:57:29.608+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:57:29.607+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:57:29.682+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.658 seconds
+[2025-01-22T14:58:00.190+0000] {processor.py:161} INFO - Started process (PID=6903) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:58:00.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:58:00.194+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:58:00.193+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:58:00.420+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:58:00.474+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:58:00.473+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:58:00.521+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:58:00.520+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:58:00.577+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.400 seconds
+[2025-01-22T14:58:30.838+0000] {processor.py:161} INFO - Started process (PID=6997) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:58:30.840+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:58:30.843+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:58:30.843+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:58:30.985+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:58:31.022+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:58:31.022+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:58:31.065+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:58:31.065+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:58:31.098+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.265 seconds
+[2025-01-22T14:59:01.229+0000] {processor.py:161} INFO - Started process (PID=7083) to work on /opt/airflow/dags/load_order.py
+[2025-01-22T14:59:01.230+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_order.py for tasks to queue
+[2025-01-22T14:59:01.233+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:59:01.232+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_order.py
+[2025-01-22T14:59:01.369+0000] {processor.py:840} INFO - DAG(s) 'load_order' retrieved from /opt/airflow/dags/load_order.py
+[2025-01-22T14:59:01.404+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:59:01.404+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T14:59:01.443+0000] {logging_mixin.py:188} INFO - [2025-01-22T14:59:01.442+0000] {dag.py:3823} INFO - Setting next_dagrun for load_order to 2025-01-22 00:01:00+00:00, run_after=2025-01-23 00:01:00+00:00
+[2025-01-22T14:59:01.470+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_order.py took 0.246 seconds
