@@ -8363,3 +8363,52 @@
 [2025-01-22T20:11:16.304+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:11:16.304+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-01-22T20:11:16.371+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:11:16.370+0000] {dag.py:3823} INFO - Setting next_dagrun for 03_simplify_dag to None, run_after=None
 [2025-01-22T20:11:16.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/03_simplify_dag.py took 0.216 seconds
+[2025-01-22T20:11:46.773+0000] {processor.py:161} INFO - Started process (PID=55365) to work on /opt/airflow/dags/03_simplify_dag.py
+[2025-01-22T20:11:46.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/03_simplify_dag.py for tasks to queue
+[2025-01-22T20:11:46.786+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:11:46.785+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/03_simplify_dag.py
+[2025-01-22T20:11:46.802+0000] {processor.py:840} INFO - DAG(s) '03_simplify_dag' retrieved from /opt/airflow/dags/03_simplify_dag.py
+[2025-01-22T20:11:46.871+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:11:46.871+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T20:11:46.909+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:11:46.909+0000] {dag.py:3823} INFO - Setting next_dagrun for 03_simplify_dag to None, run_after=None
+[2025-01-22T20:11:46.995+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/03_simplify_dag.py took 0.227 seconds
+[2025-01-22T20:12:17.318+0000] {processor.py:161} INFO - Started process (PID=55456) to work on /opt/airflow/dags/03_simplify_dag.py
+[2025-01-22T20:12:17.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/03_simplify_dag.py for tasks to queue
+[2025-01-22T20:12:17.332+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:12:17.331+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/03_simplify_dag.py
+[2025-01-22T20:12:17.347+0000] {processor.py:840} INFO - DAG(s) '03_simplify_dag' retrieved from /opt/airflow/dags/03_simplify_dag.py
+[2025-01-22T20:12:17.416+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:12:17.416+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T20:12:17.457+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:12:17.456+0000] {dag.py:3823} INFO - Setting next_dagrun for 03_simplify_dag to None, run_after=None
+[2025-01-22T20:12:17.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/03_simplify_dag.py took 0.230 seconds
+[2025-01-22T20:12:48.210+0000] {processor.py:161} INFO - Started process (PID=55549) to work on /opt/airflow/dags/03_simplify_dag.py
+[2025-01-22T20:12:48.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/03_simplify_dag.py for tasks to queue
+[2025-01-22T20:12:48.214+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:12:48.214+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/03_simplify_dag.py
+[2025-01-22T20:12:48.236+0000] {processor.py:840} INFO - DAG(s) '03_simplify_dag' retrieved from /opt/airflow/dags/03_simplify_dag.py
+[2025-01-22T20:12:48.300+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:12:48.300+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T20:12:48.342+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:12:48.342+0000] {dag.py:3823} INFO - Setting next_dagrun for 03_simplify_dag to None, run_after=None
+[2025-01-22T20:12:48.434+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/03_simplify_dag.py took 0.275 seconds
+[2025-01-22T20:13:18.667+0000] {processor.py:161} INFO - Started process (PID=55642) to work on /opt/airflow/dags/03_simplify_dag.py
+[2025-01-22T20:13:18.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/03_simplify_dag.py for tasks to queue
+[2025-01-22T20:13:18.678+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:13:18.678+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/03_simplify_dag.py
+[2025-01-22T20:13:18.690+0000] {processor.py:840} INFO - DAG(s) '03_simplify_dag' retrieved from /opt/airflow/dags/03_simplify_dag.py
+[2025-01-22T20:13:18.760+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:13:18.759+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T20:13:18.809+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:13:18.808+0000] {dag.py:3823} INFO - Setting next_dagrun for 03_simplify_dag to None, run_after=None
+[2025-01-22T20:13:18.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/03_simplify_dag.py took 0.277 seconds
+[2025-01-22T20:13:49.024+0000] {processor.py:161} INFO - Started process (PID=55736) to work on /opt/airflow/dags/03_simplify_dag.py
+[2025-01-22T20:13:49.025+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/03_simplify_dag.py for tasks to queue
+[2025-01-22T20:13:49.027+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:13:49.027+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/03_simplify_dag.py
+[2025-01-22T20:13:49.036+0000] {processor.py:840} INFO - DAG(s) '03_simplify_dag' retrieved from /opt/airflow/dags/03_simplify_dag.py
+[2025-01-22T20:13:49.067+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:13:49.067+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T20:13:49.092+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:13:49.092+0000] {dag.py:3823} INFO - Setting next_dagrun for 03_simplify_dag to None, run_after=None
+[2025-01-22T20:13:49.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/03_simplify_dag.py took 0.107 seconds
+[2025-01-22T20:14:19.679+0000] {processor.py:161} INFO - Started process (PID=55831) to work on /opt/airflow/dags/03_simplify_dag.py
+[2025-01-22T20:14:19.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/03_simplify_dag.py for tasks to queue
+[2025-01-22T20:14:19.682+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:14:19.682+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/03_simplify_dag.py
+[2025-01-22T20:14:19.688+0000] {processor.py:840} INFO - DAG(s) '03_simplify_dag' retrieved from /opt/airflow/dags/03_simplify_dag.py
+[2025-01-22T20:14:19.714+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:14:19.714+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T20:14:19.731+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:14:19.731+0000] {dag.py:3823} INFO - Setting next_dagrun for 03_simplify_dag to None, run_after=None
+[2025-01-22T20:14:19.756+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/03_simplify_dag.py took 0.081 seconds
+[2025-01-22T20:14:50.665+0000] {processor.py:161} INFO - Started process (PID=55925) to work on /opt/airflow/dags/03_simplify_dag.py
+[2025-01-22T20:14:50.666+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/03_simplify_dag.py for tasks to queue
+[2025-01-22T20:14:50.669+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:14:50.668+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/03_simplify_dag.py
+[2025-01-22T20:14:50.677+0000] {processor.py:840} INFO - DAG(s) '03_simplify_dag' retrieved from /opt/airflow/dags/03_simplify_dag.py
+[2025-01-22T20:14:50.706+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:14:50.706+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T20:14:50.731+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:14:50.730+0000] {dag.py:3823} INFO - Setting next_dagrun for 03_simplify_dag to None, run_after=None
+[2025-01-22T20:14:50.761+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/03_simplify_dag.py took 0.101 seconds

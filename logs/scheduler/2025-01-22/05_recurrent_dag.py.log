@@ -8370,3 +8370,59 @@
 [2025-01-22T20:11:13.950+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:11:13.950+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-01-22T20:11:14.118+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:11:14.118+0000] {dag.py:3823} INFO - Setting next_dagrun for 05_recurrent_minutely_dag to 2025-01-22 20:10:00+00:00, run_after=2025-01-22 20:11:00+00:00
 [2025-01-22T20:11:14.180+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/05_recurrent_dag.py took 0.413 seconds
+[2025-01-22T20:11:45.060+0000] {processor.py:161} INFO - Started process (PID=55357) to work on /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:11:45.067+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/05_recurrent_dag.py for tasks to queue
+[2025-01-22T20:11:45.070+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:11:45.070+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:11:45.089+0000] {processor.py:840} INFO - DAG(s) '05_recurrent_minutely_dag' retrieved from /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:11:45.244+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:11:45.244+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T20:11:45.366+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:11:45.365+0000] {dag.py:3823} INFO - Setting next_dagrun for 05_recurrent_minutely_dag to 2025-01-22 20:10:00+00:00, run_after=2025-01-22 20:11:00+00:00
+[2025-01-22T20:11:45.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/05_recurrent_dag.py took 0.432 seconds
+[2025-01-22T20:12:15.674+0000] {processor.py:161} INFO - Started process (PID=55450) to work on /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:12:15.675+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/05_recurrent_dag.py for tasks to queue
+[2025-01-22T20:12:15.678+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:12:15.677+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:12:15.708+0000] {processor.py:840} INFO - DAG(s) '05_recurrent_minutely_dag' retrieved from /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:12:15.792+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:12:15.792+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T20:12:15.902+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:12:15.902+0000] {dag.py:3823} INFO - Setting next_dagrun for 05_recurrent_minutely_dag to 2025-01-22 20:11:00+00:00, run_after=2025-01-22 20:12:00+00:00
+[2025-01-22T20:12:15.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/05_recurrent_dag.py took 0.334 seconds
+[2025-01-22T20:12:46.439+0000] {processor.py:161} INFO - Started process (PID=55543) to work on /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:12:46.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/05_recurrent_dag.py for tasks to queue
+[2025-01-22T20:12:46.458+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:12:46.458+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:12:46.484+0000] {processor.py:840} INFO - DAG(s) '05_recurrent_minutely_dag' retrieved from /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:12:46.533+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:12:46.533+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T20:12:46.620+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:12:46.620+0000] {dag.py:3823} INFO - Setting next_dagrun for 05_recurrent_minutely_dag to 2025-01-22 20:11:00+00:00, run_after=2025-01-22 20:12:00+00:00
+[2025-01-22T20:12:46.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/05_recurrent_dag.py took 0.238 seconds
+[2025-01-22T20:13:16.946+0000] {processor.py:161} INFO - Started process (PID=55636) to work on /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:13:16.951+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/05_recurrent_dag.py for tasks to queue
+[2025-01-22T20:13:16.954+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:13:16.953+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:13:16.977+0000] {processor.py:840} INFO - DAG(s) '05_recurrent_minutely_dag' retrieved from /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:13:17.020+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:13:17.020+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T20:13:17.066+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:13:17.066+0000] {dag.py:3823} INFO - Setting next_dagrun for 05_recurrent_minutely_dag to 2025-01-22 20:12:00+00:00, run_after=2025-01-22 20:13:00+00:00
+[2025-01-22T20:13:17.129+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/05_recurrent_dag.py took 0.194 seconds
+[2025-01-22T20:13:47.305+0000] {processor.py:161} INFO - Started process (PID=55730) to work on /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:13:47.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/05_recurrent_dag.py for tasks to queue
+[2025-01-22T20:13:47.323+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:13:47.318+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:13:47.337+0000] {processor.py:840} INFO - DAG(s) '05_recurrent_minutely_dag' retrieved from /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:13:47.402+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:13:47.401+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T20:13:47.484+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:13:47.483+0000] {dag.py:3823} INFO - Setting next_dagrun for 05_recurrent_minutely_dag to 2025-01-22 20:12:00+00:00, run_after=2025-01-22 20:13:00+00:00
+[2025-01-22T20:13:47.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/05_recurrent_dag.py took 0.268 seconds
+[2025-01-22T20:14:18.064+0000] {processor.py:161} INFO - Started process (PID=55824) to work on /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:14:18.065+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/05_recurrent_dag.py for tasks to queue
+[2025-01-22T20:14:18.067+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:14:18.067+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:14:18.078+0000] {processor.py:840} INFO - DAG(s) '05_recurrent_minutely_dag' retrieved from /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:14:18.117+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:14:18.116+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T20:14:18.188+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:14:18.188+0000] {dag.py:3823} INFO - Setting next_dagrun for 05_recurrent_minutely_dag to 2025-01-22 20:13:00+00:00, run_after=2025-01-22 20:14:00+00:00
+[2025-01-22T20:14:18.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/05_recurrent_dag.py took 0.176 seconds
+[2025-01-22T20:14:49.130+0000] {processor.py:161} INFO - Started process (PID=55918) to work on /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:14:49.132+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/05_recurrent_dag.py for tasks to queue
+[2025-01-22T20:14:49.135+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:14:49.134+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:14:49.146+0000] {processor.py:840} INFO - DAG(s) '05_recurrent_minutely_dag' retrieved from /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:14:49.175+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:14:49.175+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T20:14:49.221+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:14:49.221+0000] {dag.py:3823} INFO - Setting next_dagrun for 05_recurrent_minutely_dag to 2025-01-22 20:13:00+00:00, run_after=2025-01-22 20:14:00+00:00
+[2025-01-22T20:14:49.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/05_recurrent_dag.py took 0.128 seconds
+[2025-01-22T20:15:19.720+0000] {processor.py:161} INFO - Started process (PID=56010) to work on /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:15:19.721+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/05_recurrent_dag.py for tasks to queue
+[2025-01-22T20:15:19.724+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:15:19.723+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:15:19.735+0000] {processor.py:840} INFO - DAG(s) '05_recurrent_minutely_dag' retrieved from /opt/airflow/dags/05_recurrent_dag.py
+[2025-01-22T20:15:19.766+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:15:19.765+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-22T20:15:19.814+0000] {logging_mixin.py:188} INFO - [2025-01-22T20:15:19.814+0000] {dag.py:3823} INFO - Setting next_dagrun for 05_recurrent_minutely_dag to 2025-01-22 20:14:00+00:00, run_after=2025-01-22 20:15:00+00:00
+[2025-01-22T20:15:19.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/05_recurrent_dag.py took 0.134 seconds
